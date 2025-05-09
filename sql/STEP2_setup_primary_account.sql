@@ -59,7 +59,7 @@ CREATE OR REPLACE USER marketing_admin
 GRANT ROLE marketing_analyst_role TO USER marketing_admin;
 GRANT CREATE SHARE ON ACCOUNT                    TO ROLE marketing_analyst_role;
 GRANT CREATE ORGANIZATION LISTING ON ACCOUNT     TO ROLE marketing_analyst_role;
-GRANT MANAGE LISTING AUTO FULFILLMENT ON ACCOUNT TO ROLE sales_data_scientist_role;
+GRANT MANAGE LISTING AUTO FULFILLMENT ON ACCOUNT TO ROLE marketing_analyst_role;
 
 
 -- Continue to run this code in your PRIMARY account
